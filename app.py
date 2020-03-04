@@ -20,11 +20,11 @@ def forecast_page():
 
     #get city name from html form request
     city = str(request.args['city_input'])
-    temperature = getWeather.getWeather(city)
+    weatherData = getWeather.getWeather(city)
 
     #if city is real
-    if temperature != False:
-        return render_template('forecast.html', temperature=temperature)
+    if weatherData != False:
+        return render_template('forecast.html', temperature=weatherData['temperature'], icon=weatherData['icon'], summary=weatherData['summary'])
 
 
     #if city is not real

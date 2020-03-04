@@ -13,8 +13,10 @@ def getWeather(city):
         return False
 
 
+
     #dark sky api
     key = os.environ.get('API_KEY')
+
 
     link = 'https://api.darksky.net/forecast/'
 
@@ -27,12 +29,14 @@ def getWeather(city):
         r = requests.get(url)
         data = r.json()
 
-
+        print(data)
         #get temperature, icon from data
-        temperature = data['currently']['temperature']
-        icon = data['currently']['icon']
+        weatherData = {
+            'summary' : data['currently']['summary'],
+            'temperature' : data['currently']['temperature'],
+            'icon' : data['currently']['icon']
+        }
 
-
-        return temperature
+        return weatherData
     except:
         return False
