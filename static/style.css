@@ -1,14 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+
+
 html, body{
+  margin: 0;
+  padding: 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: 'Barlow', sans-serif;
 }
 
-input{
-  height: 50px;
+.card-input{
+  width: 90%;
+  height: 90%;
+  border: 4px dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-button{
-  height: 50px;
+#signature{
+  font-size: 12px;
+  font-style: italic;
+  font-family: fantasy;
 }
 
-p{
-  font-size: 32px;
+
+
+.btn{
+  color: black;
+  height: 34px;
+  background-color: white;
+  border: 1px solid;
+  text-align: center;
+  width: 60px;
+}
+.btn:hover{
+  color: white;
+  background-color: black;
+}
+
+.line-input{
+  border: 1px solid;
+  height: 30px;
 }

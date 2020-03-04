@@ -3,26 +3,21 @@
   <head>
 
     <!-- All stylesheets -->
-    <link rel="stylesheet" href="../static/bootstrap.min.css">
     <link rel="stylesheet" href="../static/style.css">
 
     <meta charset="utf-8">
     <title>WeatherApp</title>
   </head>
-  <body class="d-flex align-self-center justify-content-center">
-      <div class="card text-center d-flex justify-content-center align-self-center">
-        <div class="card-header">
+  <body>
+      <div class="card-input">
           <h3>Enter City</h3>
-        </div>
-        <div class="card-body d-flex justify-content-center align-self-center">
-          <form class="d-flex justify-content-center align-self-center" action="forecast" method="get">
-            <input type="text" name="city_input">
-            <input class="btn btn-primary" type="submit" value="Enter">
-          </form>
-        </div>
-        <div class="card-footer">
-          <p class="text-muted">by Egor Ivanov</p>
-        </div>
-      </div>
+          <div>
+            <form action="forecast" method="get">
+              <input class="line-input" type="text" name="city_input">
+              <input class="btn" type="submit" value="Enter">
+            </form>
+          </div>
+          <p id="signature">by Egor Ivanov</p>
+     </div>
   </body>
 </html>

@@ -24,7 +24,7 @@ def forecast_page():
 
     #if city is real
     if weatherData != False:
-        return render_template('forecast.html', temperature=weatherData['temperature'], icon=weatherData['icon'], summary=weatherData['summary'])
+        return render_template('forecast.html', temperature=weatherData['temperature'], icon=weatherData['icon'], summary=weatherData['summary'], city=city.title())
 
 
     #if city is not real
