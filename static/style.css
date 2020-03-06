@@ -30,7 +30,11 @@ html, body{
   font-family: "Times New Roman";
 }
 
-
+input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
 .btn{
   color: black;
