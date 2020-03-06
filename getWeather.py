@@ -29,7 +29,7 @@ def getWeather(city):
         r = requests.get(url)
         data = r.json()
 
-        print(data)
+        
         #get temperature, icon from data
         weatherData = {
             'summary' : data['currently']['summary'],

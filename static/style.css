@@ -27,7 +27,7 @@ html, body{
 #signature{
   font-size: 12px;
   font-style: italic;
-  font-family: fantasy;
+  font-family: "Times New Roman";
 }
 
 
@@ -48,4 +48,11 @@ html, body{
 .line-input{
   border: 1px solid;
   height: 30px;
+}
+
+
+@media (max-width: 376px) {
+  h3{
+    font-size: 64px;
+  }
 }
