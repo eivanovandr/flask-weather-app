@@ -1,4 +1,4 @@
-Simple Python Weather App - ready for deployment on Heroku
+Python Weather Web App - ready for deployment on Heroku
 
 Hosted on Heroku :  [https://flask-weather-application.herokuapp.com/](https://flask-weather-application.herokuapp.com/)
 
