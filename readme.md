@@ -12,13 +12,13 @@ export API_KEY = your DarkSky API_KEY \
 flask run 
 
 Technologies used: \
-Backend/Server: 
+Backend/Server: \
 	> Python: \t
 		>> Flask 
 		+ requests 
 		+ geopy 
 		+ os 
 		+ gunicorn 
-Frontend: 
+Frontend: \
 	 * HTML, CSS, JS 
 	  + skycons.js 
