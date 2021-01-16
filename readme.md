@@ -13,12 +13,12 @@ flask run
 
 Technologies used: \
 Backend/Server: \
-	> Python: \t
-		>> Flask 
-		+ requests 
-		+ geopy 
-		+ os 
-		+ gunicorn 
+	Python:
+		Flask 
+		requests 
+		geopy 
+		os 
+		gunicorn 
 Frontend: \
 	 * HTML, CSS, JS 
 	  + skycons.js 
