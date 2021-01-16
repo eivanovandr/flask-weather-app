@@ -2,22 +2,21 @@ import requests
 import os
 from geopy.geocoders import Nominatim
 
+
 def getWeather(city):
 
     #get city latitude and longitude or None object if city is not real
-    geolocator = Nominatim(user_agent="myWeatherApp")
-    location = geolocator.geocode(city)
+    geolocator = Nominatim(user_agent="FlaskWeatherApp")
+    location = geolocator.geocode(city, timeout=10, exactly_one=True)
 
     #if city not real quit function
     if location == None:
         return False
 
-
-
     #dark sky api
     key = os.environ.get('API_KEY')
 
-
+    print(key)
     link = 'https://api.darksky.net/forecast/'
 
     #get data from api
