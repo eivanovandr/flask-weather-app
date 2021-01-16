@@ -9,4 +9,4 @@ pyhton -m venv venv \
 source venv/bin/activate \
 pip install --upgrade -r requirements.txt \
 export API_KEY = your DarkSky API_KEY \
-flask run \
+flask run 
