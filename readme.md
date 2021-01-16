@@ -13,8 +13,8 @@ flask run
 
 Technologies used: \
 Backend/Server: 
-	* Python: 
-		+ Flask 
+	> Python: 
+		>> Flask 
 		+ requests 
 		+ geopy 
 		+ os 
