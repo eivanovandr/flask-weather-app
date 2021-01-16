@@ -4,11 +4,13 @@ Hosted on Heroku :  [https://flask-weather-application.herokuapp.com/](https://f
 
 In order to use you need DarkSky API_KEY in the Config Vars
 
-How to use: pyhton -m venv venv  
-source venv/bin/activate  
-pip install --upgrade -r requirements.txt  
-export API_KEY = your DarkSky API_KEY  
-flask run
+How to use: 
+
+$pyhton -m venv venv  
+$source venv/bin/activate  
+$pip install --upgrade -r requirements.txt  
+$export API_KEY = your DarkSky API_KEY  
+$flask run
 
 - Technologies used:  
 	- Backend/Server:  
