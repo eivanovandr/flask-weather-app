@@ -1,6 +1,6 @@
 Python Weather Web App - ready for deployment on Heroku
 
-Hosted on Heroku :  [https://flask-weather-application.herokuapp.com/](https://flask-weather-application.herokuapp.com/)
+Hosted on Vultr :  http://149.248.57.234:4000/
 
 In order to use you need DarkSky API_KEY in the Config Vars
 
